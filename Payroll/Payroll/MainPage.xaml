@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Payroll.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkRed" Padding="24" CornerRadius="0">
+            <Label Text="MM Inc. Payroll" HorizontalTextAlignment="Center" TextColor="White" FontSize="38" FontAttributes="Italic, Bold" FontFamily="Segoe UI"/>
+        </Frame>
+        <Label Text="Maica Janine Glabog and Mary Angel Fuentes" FontSize="15"/>
+
+        <Label Text="Employment Status:" FontSize="20" FontAttributes="Bold" FontFamily="Segoe UI"/>
+        <Entry x:Name="EmploymentStatus" FontSize="18"/>
+
+        <Label Text="Civil Status:" FontSize="20" FontAttributes="Bold" FontFamily="Segoe UI"/>
+        <Entry x:Name="CivilStatus" FontSize="18"/>
+
+        <Label Text="Hours worked:" FontSize="20" FontAttributes="Bold" FontFamily="Segoe UI"/>
+        <Entry x:Name="HoursWorked" FontSize="18"/>
+
+
+        <Button  Text="Calculate" Clicked="Button_Clicked" BackgroundColor="DarkRed" FontSize="20" HorizontalOptions="Center" TextColor="White"/>
+        
+        <Label x:Name="BackHome"/>
+
+
+    </StackLayout>
+
+</ContentPage>

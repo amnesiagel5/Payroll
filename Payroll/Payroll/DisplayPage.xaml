@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Payroll.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Vertical" BackgroundColor="WhiteSmoke"
+                 Spacing="10" Padding="10,10,10,10">
+
+                <Label Text="Gross Income:" FontSize="20" FontFamily="Segoe UI"/>
+                <Label x:Name="page1GrossIncome" FontSize="20" FontAttributes="Bold"/>
+
+                <Label Text="Deduction:" FontSize="20" FontFamily="Segoe UI"/>
+                <Label x:Name="page1Deduction" FontSize="20" FontAttributes="Bold"/>
+
+                <Label Text="Net Income:" FontSize="20" FontFamily="Segoe UI"/>
+                <Label x:Name="page1NetIncome" FontSize="20" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <Button Text="Back to Home" Clicked="back_Home" FontSize="24" BackgroundColor="DarkRed" HorizontalOptions="Center" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
